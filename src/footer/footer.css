@@ -8,14 +8,11 @@
   --margin--top-val: 5rem;
 }
 
-
-
-
 .shift {
   margin-top: 3rem;
 }
-.shiftButtom{
-    margin-bottom: 3rem;
+.shiftButtom {
+  margin-bottom: 3rem;
 }
 
 .maintext2 {
@@ -39,7 +36,7 @@
     gap: 2rem;
   }
   .footerImage {
-    background-image: url("../public/footerImg.png");
+    background-image: url("../../public/footerImg.png");
     background-repeat: no-repeat;
     width: 100vw;
     height: 70vh;
@@ -62,7 +59,7 @@
     gap: 2rem;
   }
   .footerImage {
-    background-image: url("../public/footerImg.png");
+    background-image: url("../../public/footerImg.png");
     background-repeat: no-repeat;
     width: 100vw;
     height: 70vh;
@@ -85,7 +82,7 @@
     gap: 2rem;
   }
   .footerImage {
-    background-image: url("../public/footerImg.png");
+    background-image: url("../../public/footerImg.png");
     background-repeat: no-repeat;
     width: 100vw;
     height: 50vh;
@@ -131,7 +128,7 @@
     gap: 5rem;
   }
   .footerImage {
-    background-image: url("../public/footerImg.png");
+    background-image: url("../../public/footerImg.png");
     background-repeat: no-repeat;
     width: 100vw;
     height: 60vh;
