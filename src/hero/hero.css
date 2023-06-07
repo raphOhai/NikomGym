@@ -1,0 +1,90 @@
+:root {
+  --main-color: #ff4300;
+  --main-text-color: #fff;
+  --heading-text-size: 1.2rem;
+  --hero-text-size: 2rem;
+  --head-font-Weight: 200;
+  --stack-gap: 3rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.headingText {
+  color: white;
+  font-size: var(--heading-text-size);
+  font-weight: var(--head-font-Weight);
+  font-family: Outfit;
+}
+
+.logo {
+  color: var(--main-color);
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: Outfit;
+}
+
+@media only screen and (max-width: 280px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mainText {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4%;
+    font-family: Orbitron;
+    color: var(--main-text-color);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mainText {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4%;
+    font-family: Orbitron;
+    color: var(--main-text-color);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mainText {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4%;
+    font-family: Orbitron;
+    color: var(--main-text-color);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mainText {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4%;
+    font-family: Orbitron;
+    color: var(--main-text-color);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .mainText {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 4%;
+    font-family: Orbitron;
+    color: var(--main-text-color);
+  }
+}
