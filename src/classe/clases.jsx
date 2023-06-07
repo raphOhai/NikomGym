@@ -8,7 +8,7 @@ import Vector from "../assets/Vector";
 import Clock from "../assets/Clock";
 import Animate from "../animator";
 const Clases = () => {
-  Animate("SlideUp")
+  Animate("SlideUp");
   return (
     <div className="clasesImage">
       <div className="centerText">
@@ -16,7 +16,7 @@ const Clases = () => {
       </div>
       <div className="mainPadding ">
         <div>
-          <div style={{paddingBottom:"3rem"}} className="grid2 shiftButtom">
+          <div style={{ paddingBottom: "3rem" }} className="grid2 shiftButtom">
             <div className="stack SlideUp group">
               <Cards image={image1} />
               <div className="grid3">
@@ -28,8 +28,8 @@ const Clases = () => {
                     </div>
                   </div>
 
-                  <h3 className="highLightText">Strength & Sweat</h3>
-                  <p className="smallText">Strength & Sweat</p>
+                  <h3 className="highLightText">Strength & Sweat TDP</h3>
+                  <p className="smallText">Instuctor: Zion Osayi</p>
                   <div className="align-start">
                     <div className="flexBox ">
                       <div className="white-circle"></div>
@@ -75,8 +75,8 @@ const Clases = () => {
                     </div>
                   </div>
 
-                  <h3 className="highLightText">Strength & Sweat</h3>
-                  <p className="smallText">Strength & Sweat</p>
+                  <h3 className="highLightText"> Total Body Burnout</h3>
+                  <p className="smallText">Instructor: Zion Osayi</p>
                   <div className="align-start">
                     <div className="flexBox ">
                       <div className="white-circle"></div>
@@ -95,7 +95,7 @@ const Clases = () => {
                     <div className="align-start">
                       <div className="flexBox ">
                         <Vector />
-                        <p className="smallText">24 students</p>
+                        <p className="smallText">34 students</p>
                       </div>
                     </div>
 
@@ -122,12 +122,12 @@ const Clases = () => {
                     </div>
                   </div>
 
-                  <h3 className="highLightText">Strength & Sweat</h3>
-                  <p className="smallText">Strength & Sweat</p>
+                  <h3 className="highLightText">Bootcamp Challenge</h3>
+                  <p className="smallText">Instructor: Robert Fox</p>
                   <div className="align-start">
                     <div className="flexBox ">
                       <div className="white-circle"></div>
-                      <p className="smallText">No.of classes:30</p>
+                      <p className="smallText">No.of classes:34</p>
                     </div>
                   </div>
                   <div className="align-start">
@@ -158,7 +158,6 @@ const Clases = () => {
                 <button className="outlineBtn">Learn more</button>
               </div>
             </div>
-        
           </div>
         </div>
       </div>
