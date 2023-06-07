@@ -65,7 +65,7 @@ const Clases = () => {
               </div>
             </div>
             <div className="stack SlideUp group">
-              <Cards image={image1} />
+              <Cards image={image2} />
               <div className="grid3">
                 <div className="stack2">
                   <div className="align-start">
@@ -112,7 +112,7 @@ const Clases = () => {
               </div>
             </div>
             <div className="stack SlideUp group">
-              <Cards image={image1} />
+              <Cards image={image3} />
               <div className="grid3">
                 <div className="stack2">
                   <div className="align-start">
