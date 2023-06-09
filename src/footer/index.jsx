@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
             <div className="line"></div>
             <div className="centerText">
-              <p className="smallText">© NIKOM 2023. All rights reserved.</p>
+              <p className="smallText">© NICOM 2023. All rights reserved.</p>
             </div>
           </div>
         </div>

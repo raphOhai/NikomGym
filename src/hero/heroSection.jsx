@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div>
       <div className="header">
-        <p className="logo">NIKOM</p>
+        <p className="logo">NICOM</p>
         <div className="flexBox hideMobileAndTab">
           <p className="headingText">classes</p>
           <p className="headingText">Team</p>
